@@ -34,7 +34,8 @@ iamRoleStatements:
       - dynamodb:UpdateItem
       - dynamodb:DeleteItem
     Resource:
-      - "arn:aws:dynamodb:eu-west-1:*:*"
+      - "arn:aws:dynamodb:eu-west-1:526405879712:table/notes"
+#      - "arn:aws:dynamodb:eu-west-1:*:*"
 #      - "Fn::GetAtt": [ NotesTable, Arn ]
 
 functions:
